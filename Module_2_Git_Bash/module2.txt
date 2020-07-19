@@ -9,5 +9,3 @@ c) Explain 3 benefits version control in your own words
     1) version control allows to separate the code so that the experimental features or changes don't affect the main application until they are throughly tested and approved.
 
     2) allows to keep track of all changes made to the codebase based on commits and who can push or pull from the repository by making the repository public or private and approving or rejecting push requests.
-
-3) Create a new branch Module2, check into it and push the new files. 4) Merge Module2 into Master. 
