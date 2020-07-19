@@ -1,0 +1,13 @@
+a) What is Git and how is it different than github 
+  a. git is a version control program that manages changes to the codebase, dividing in into branches like production, staging and master. This keep the experimental code separate from the stable until is throughly tested and approved to be put into the main application. 
+
+b) Why use the terminal 
+  terminal gives a developer access to all the features of the operating system in one place in the form of commands, is used by the developers to quickly create, modify and remove entire files and folder structures with a few set of instruction which would take serveral clicks on the regular GUI of the operating system used.
+
+c) Explain 3 benefits version control in your own words 
+ c. 
+    1) version control allows to separate the code so that the experimental features or changes don't affect the main application until they are throughly tested and approved.
+
+    2) allows to keep track of all changes made to the codebase based on commits and who can push or pull from the repository by making the repository public or private and approving or rejecting push requests.
+
+3) Create a new branch Module2, check into it and push the new files. 4) Merge Module2 into Master. 
