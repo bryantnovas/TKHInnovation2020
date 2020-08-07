@@ -9,9 +9,9 @@ const full_names = [
   "Michael Jordan",
   "Patrick Ewing",
 ];
-first_name = [];
-last_name = [];
-split_names = full_names.map((name) => name.split(" "));
+const first_name = [];
+const last_name = [];
+let split_names = full_names.map((name) => name.split(" "));
 split_names.map((nameArr) => {
   first_name.push(nameArr[0]);
   last_name.push(nameArr[1]);
