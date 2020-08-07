@@ -72,6 +72,7 @@ keys.addEventListener("click", (event) => {
         // checks if float and limits decimal places to 2
         let solution = calc % 1 == 0 ? calc : calc.toFixed(2);
         calculator.firstOperand = calculator.displayValue = solution;
+        calculator.operator = null;
         calculator.secondOperand = null;
       }
     }
