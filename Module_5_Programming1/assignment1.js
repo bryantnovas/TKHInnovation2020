@@ -1,8 +1,8 @@
 const wIncome = parseInt(prompt("weekly income?"));
-const fCost = parseInt(prompt("food cost?"));
-const hCost = parseInt(prompt("housing cost?"));
-const tCost = parseInt(prompt("transportation cost?"));
-const oCost = parseInt(prompt("other cost?"));
+const fCost = parseInt(prompt("weekly food cost?"));
+const hCost = parseInt(prompt("weekly housing cost?"));
+const tCost = parseInt(prompt("weekly transportation cost?"));
+const oCost = parseInt(prompt("other weekly cost?"));
 const savings = parseInt(prompt("how much you wanto to save in a year?"));
 const weeklySavings = savings / 52;
 const totalWeeklyCost = fCost + hCost + tCost + oCost;
