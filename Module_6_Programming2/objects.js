@@ -2,6 +2,7 @@ const Car = {
   make: 'Honda',
   model: 'CRV',
   year: '2018',
+  tires: 5,
   mileage: 0,
   set miles(miles) {
     this.mileage = miles
@@ -15,6 +16,7 @@ const Car = {
 const Team = {
   name: 'New York Yankees',
   homeState: 'NY',
+  hasStadium: 'yes'
   establised: 1903,
   numPlayers: 0,
   set HowManyPlayers(players) {
@@ -29,6 +31,7 @@ const Team = {
 const Animal = {
   commonName: 'duck',
   type: 'bird',
+  canSwim: 'yes',
   canFly: 'yes',
   givenName: '',
   set name(name) {
