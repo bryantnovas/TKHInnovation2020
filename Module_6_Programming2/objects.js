@@ -16,7 +16,7 @@ const Car = {
 const Team = {
   name: 'New York Yankees',
   homeState: 'NY',
-  hasStadium: 'yes'
+  hasStadium: 'yes',
   establised: 1903,
   numPlayers: 0,
   set HowManyPlayers(players) {
